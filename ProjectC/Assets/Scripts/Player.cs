@@ -6,39 +6,85 @@ public class Player : MonoBehaviour
 {
     private Animator animator;
     private bool isMoving;
+    public bool canMove = true;
 
     [SerializeField] private TerrainGenerator terrainGenerator;
+    public float score;
+
+    [SerializeField] GameManager gameManager;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
     }
+
     void Update()
     {
-        //Move Forward
-        if (Input.GetKeyDown(KeyCode.W) && !isMoving)
+        if (canMove)
         {
-            animator.SetTrigger("Move");
-            isMoving = true;
-            //Getting Back onto a grid and movefoward
-            float zDiff = 0;
-            if (transform.position.z % 1 != 0)
+            // Store the input direction.
+            Vector3 inputDirection = Vector3.zero;
+
+            if (Input.GetKeyDown(KeyCode.W) && !isMoving)
             {
-                zDiff = Mathf.RoundToInt(transform.position.z) - transform.position.z;
+                inputDirection = new Vector3(1, 0, 0);
+                Vector3 newPosition = transform.position + inputDirection;
+                if (CanMoveToPosition(newPosition, Vector3.right))
+                {
+                    MoveCharacter(inputDirection);
+                }
             }
-            MoveCharacter(new Vector3(1, 0, zDiff));
+            else if (Input.GetKeyDown(KeyCode.A) && !isMoving)
+            {
+                inputDirection = new Vector3(0, 0, 1);
+                Vector3 newPosition = transform.position + inputDirection;
+                if (CanMoveToPosition(newPosition, Vector3.forward))
+                {
+                    MoveCharacter(inputDirection);
+                }
+            }
+            else if (Input.GetKeyDown(KeyCode.D) && !isMoving)
+            {
+                inputDirection = new Vector3(0, 0, -1);
+                Vector3 newPosition = transform.position + inputDirection;
+                if (CanMoveToPosition(newPosition, Vector3.back))
+                {
+                    MoveCharacter(inputDirection);
+                }
+            }
+            else if (Input.GetKeyDown(KeyCode.S) && !isMoving)
+            {
+                inputDirection = new Vector3(-1, 0, 0);
+                Vector3 newPosition = transform.position + inputDirection;
+                if (CanMoveToPosition(newPosition, Vector3.left))
+                {
+                    MoveCharacter(inputDirection);
+                }
+            }
         }
 
-        //Move Left
-        else if (Input.GetKeyDown(KeyCode.A) && !isMoving)
+        gameManager.UpdateScore(UpdateScore());
+    }
+
+    private bool CanMoveToPosition(Vector3 newPosition, Vector3 whichway)
+    {
+        // Set the raycast origin at the player's feet.
+        Vector3 raycastOrigin = transform.position + Vector3.up * 0.1f;
+        // Cast raycasts in all directions to check for obstacles.
+        float raycastDistance = 1.0f;
+        Debug.Log("Transform" + transform.position);
+        Debug.Log("Raycast " + whichway);
+        Debug.Log("newPos " + newPosition);
+        RaycastHit hit;
+        if (Physics.Raycast(raycastOrigin, whichway, out hit, raycastDistance))
         {
-            MoveCharacter(new Vector3(0, 0, 1));
+            if (hit.collider.CompareTag("Obstacle"))
+            {
+                Debug.Log("Raycast hit: " + hit.collider.name);
+                return false;
+            }
         }
-        //Move Right
-        else if (Input.GetKeyDown(KeyCode.D) && !isMoving)
-        {
-            MoveCharacter(new Vector3 (0, 0, -1));
-        }
+        return true;
     }
 
     private void MoveCharacter(Vector3 difference)
@@ -46,11 +92,21 @@ public class Player : MonoBehaviour
         animator.SetTrigger("Move");
         isMoving = true;
         transform.position = (transform.position + difference);
-        terrainGenerator.SpawnTerrains(false, transform.position);
+
+        if (terrainGenerator != null)
+        {
+            terrainGenerator.SpawnTerrains(false, false, transform.position);
+        }
     }
 
     public void FinishMove()
     {
         isMoving = false;
+    }
+
+    public float UpdateScore()
+    {
+        score = transform.position.x;
+        return score;
     }
 }
