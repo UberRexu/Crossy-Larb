@@ -15,9 +15,22 @@ public class GameManager : MonoBehaviour
     //GameOver
     public GameOverScreen GameoverScreen;
 
+    //PreStart
+    public Prestart Prestart;
+
+    //Win
+    public WinScreen WinScreen;
+
+    //Pause
+    public PauseScreen PauseScreen;
+
+    //Unpause
+    public UnpauseScreen UnpauseScreen;
+
     //Score
     public float playerScore = 0;
     public TextMeshProUGUI scoreText;
+    public GameObject scoreText_GO;
 
     //Player
     public Player player;
@@ -28,7 +41,7 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        UpdateGameState(GameState.Play);
+        UpdateGameState(GameState.Prestart);
     }
     public void UpdateGameState(GameState newState)
     {
@@ -45,6 +58,15 @@ public class GameManager : MonoBehaviour
             case GameState.Pause:
                 HandlePause();
                 break;
+            case GameState.Unpause:
+                HandleUnpause();
+                break;
+            case GameState.Prestart:
+                HandlePreStart();
+                break;
+            case GameState.Win:
+                HandleWin();
+                break;
             default:
                 break;
         }
@@ -54,21 +76,37 @@ public class GameManager : MonoBehaviour
 
     private void HandlePause()
     {
-        
+        PauseScreen.Setup();
+        player.canMove = false;
+    }
+    private void HandleUnpause()
+    {
+        PauseScreen.Setdown();
+        UnpauseScreen.Setup();
+        player.canMove = false;
     }
 
     private void HandleDied()
     {
         Debug.Log("Player Died");
         GameoverScreen.Setup(playerScore);
-        Debug.Log("Before setting player.canMove: " + player.canMove);
         player.canMove = false;
-        Debug.Log("After setting player.canMove: " + player.canMove);
+        scoreText_GO.SetActive(false);
+        Time.timeScale = 0;
     }
 
     private void HandlePlay()
     {
-        
+        Time.timeScale = 1; 
+        player.canMove = true;
+    }
+    private void HandlePreStart()
+    {
+        Prestart.Setup();
+    }
+    private void HandleWin()
+    {
+        WinScreen.Setup();
     }
     public void UpdateScore(float points)
     {
@@ -88,5 +126,8 @@ public enum GameState
 {
     Play,
     Died,
-    Pause
+    Pause,
+    Unpause,
+    Prestart,
+    Win
 }

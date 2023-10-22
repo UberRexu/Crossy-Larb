@@ -5,13 +5,17 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Animator animator;
-    private bool isMoving;
+    public bool isMoving;
     public bool canMove = true;
 
     [SerializeField] private TerrainGenerator terrainGenerator;
     public float score;
 
     [SerializeField] GameManager gameManager;
+
+    [SerializeField] private FollowPlayer Camera;
+
+    private bool isPause = false;
 
     private void Start()
     {
@@ -32,6 +36,7 @@ public class Player : MonoBehaviour
                 if (CanMoveToPosition(newPosition, Vector3.right))
                 {
                     MoveCharacter(inputDirection);
+                    Camera.PlayerStartedMovingForward();
                 }
             }
             else if (Input.GetKeyDown(KeyCode.A) && !isMoving)
@@ -41,6 +46,7 @@ public class Player : MonoBehaviour
                 if (CanMoveToPosition(newPosition, Vector3.forward))
                 {
                     MoveCharacter(inputDirection);
+                    Camera.PlayerStartedMovingLeftRight();
                 }
             }
             else if (Input.GetKeyDown(KeyCode.D) && !isMoving)
@@ -50,6 +56,7 @@ public class Player : MonoBehaviour
                 if (CanMoveToPosition(newPosition, Vector3.back))
                 {
                     MoveCharacter(inputDirection);
+                    Camera.PlayerStartedMovingLeftRight();
                 }
             }
             else if (Input.GetKeyDown(KeyCode.S) && !isMoving)
@@ -62,7 +69,19 @@ public class Player : MonoBehaviour
                 }
             }
         }
-
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!isPause)
+            {
+                GameManager.Instance.UpdateGameState(GameState.Pause);
+                isPause = true;
+            }
+            else
+            {
+                GameManager.Instance.UpdateGameState(GameState.Unpause);
+                isPause = false;
+            }
+        }
         gameManager.UpdateScore(UpdateScore());
     }
 
@@ -72,15 +91,11 @@ public class Player : MonoBehaviour
         Vector3 raycastOrigin = transform.position + Vector3.up * 0.1f;
         // Cast raycasts in all directions to check for obstacles.
         float raycastDistance = 1.0f;
-        Debug.Log("Transform" + transform.position);
-        Debug.Log("Raycast " + whichway);
-        Debug.Log("newPos " + newPosition);
         RaycastHit hit;
         if (Physics.Raycast(raycastOrigin, whichway, out hit, raycastDistance))
         {
             if (hit.collider.CompareTag("Obstacle"))
             {
-                Debug.Log("Raycast hit: " + hit.collider.name);
                 return false;
             }
         }
@@ -102,6 +117,7 @@ public class Player : MonoBehaviour
     public void FinishMove()
     {
         isMoving = false;
+        Camera.PlayerStandStill();
     }
 
     public float UpdateScore()
