@@ -27,6 +27,9 @@ public class GameManager : MonoBehaviour
     //Unpause
     public UnpauseScreen UnpauseScreen;
 
+    //FollowPLayer
+    public FollowPlayer FollowPlayer;
+
     //Score
     public float playerScore = 0;
     public TextMeshProUGUI scoreText;
@@ -99,10 +102,12 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1; 
         player.canMove = true;
+        FollowPlayer.StartGame();
     }
     private void HandlePreStart()
     {
         Prestart.Setup();
+        player.canMove = false;
     }
     private void HandleWin()
     {

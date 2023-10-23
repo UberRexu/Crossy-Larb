@@ -355,10 +355,12 @@
 "Assets/Scripts/SceneScript/GameOverScreen.cs"
 "Assets/Scripts/SceneScript/PauseScreen.cs"
 "Assets/Scripts/SceneScript/Prestart.cs"
+"Assets/Scripts/SceneScript/SceneLoader.cs"
 "Assets/Scripts/SceneScript/UnpauseScreen.cs"
 "Assets/Scripts/SceneScript/WinScreen.cs"
 "Assets/Scripts/TerrainScript/TerrainData.cs"
 "Assets/Scripts/TerrainScript/TerrainGenerator.cs"
+"Assets/Scripts/Water.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -393,7 +395,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/Water.cs"
 -langversion:9.0
 
 /deterministic

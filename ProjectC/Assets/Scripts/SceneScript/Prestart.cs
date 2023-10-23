@@ -8,7 +8,6 @@ public class Prestart : MonoBehaviour
     public void Setup()
     {
         gameObject.SetActive(true);
-        Time.timeScale = 0;
     }
 
     // Update is called once per frame

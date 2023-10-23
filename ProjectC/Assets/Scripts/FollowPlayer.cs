@@ -14,6 +14,8 @@ public class FollowPlayer : MonoBehaviour
     private bool isMovingLeftRight = false;
     private bool isStandingStill = true;
 
+    private bool gameStart = false;
+
     private void Update()
     {
         if (player.transform.position.x < transform.position.x - 2f)
@@ -28,7 +30,7 @@ public class FollowPlayer : MonoBehaviour
         {
             transform.position = Vector3.SmoothDamp(transform.position, new Vector3(player.transform.position.x - 1f, transform.position.y, transform.position.z), ref velocity, smoothness);
         }
-        if (isStandingStill)
+        if (isStandingStill && gameStart)
         {
             float forwardPositionX = transform.position.x + forwardSpeed * Time.deltaTime;
             transform.position = Vector3.SmoothDamp(transform.position, new Vector3(forwardPositionX, transform.position.y, transform.position.z), ref velocity, smoothness);
@@ -58,5 +60,10 @@ public class FollowPlayer : MonoBehaviour
         isMovingLeftRight = false;
         isMovingForward = false;
         isStandingStill = true;
+    }
+
+    public void StartGame()
+    {
+        gameStart = true;
     }
 }
