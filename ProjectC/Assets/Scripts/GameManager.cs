@@ -94,8 +94,9 @@ public class GameManager : MonoBehaviour
         Debug.Log("Player Died");
         GameoverScreen.Setup(playerScore);
         player.canMove = false;
+        player.Dead();
         scoreText_GO.SetActive(false);
-        Time.timeScale = 0;
+        FollowPlayer.PlayerDead();
     }
 
     private void HandlePlay()

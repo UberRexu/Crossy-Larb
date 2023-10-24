@@ -34,7 +34,6 @@ public class Car : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             GameManager.Instance.UpdateGameState(GameState.Died);
-            Debug.Log("Hit!");
         }
     }
 }

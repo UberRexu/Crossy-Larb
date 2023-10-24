@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] private FollowPlayer Camera;
 
     private bool isPause = false;
+    public bool isDead = false;
 
     private void Start()
     {
@@ -106,7 +107,7 @@ public class Player : MonoBehaviour
     {
         animator.SetTrigger("Move");
         isMoving = true;
-        transform.position = (transform.position + difference);
+        StartCoroutine(MoveWithAnimation(difference));
 
         if (terrainGenerator != null)
         {
@@ -114,15 +115,25 @@ public class Player : MonoBehaviour
         }
     }
 
+    IEnumerator MoveWithAnimation(Vector3 difference)
+    {
+        yield return new WaitForSeconds(0.1f);
+        transform.position = (transform.position + difference);
+    }
     public void FinishMove()
     {
         isMoving = false;
         Camera.PlayerStandStill();
     }
-
+    
     public float UpdateScore()
     {
         score = transform.position.x;
         return score;
+    }
+
+    public void Dead()
+    {
+        animator.SetTrigger("isDead");
     }
 }

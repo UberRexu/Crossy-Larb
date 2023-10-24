@@ -352,6 +352,7 @@
 "Assets/Scripts/ObjectScript/Plank2.cs"
 "Assets/Scripts/ObjectScript/PlatformAttach.cs"
 "Assets/Scripts/ObjectScript/Player.cs"
+"Assets/Scripts/ObjectScript/RodDaeng.cs"
 "Assets/Scripts/SceneScript/GameOverScreen.cs"
 "Assets/Scripts/SceneScript/PauseScreen.cs"
 "Assets/Scripts/SceneScript/Prestart.cs"
