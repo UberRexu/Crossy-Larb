@@ -32,28 +32,28 @@ public class TerrainGenerator : MonoBehaviour
         if (currentPosition.x - playerPos.x < min_distanceFromPlayer || (isStart))
         {
             int whichTerrain;
-            if (isFirst && isStart)
+            if (isFirst && isStart) //If is first time spawn, only spawn grass
             {
                 whichTerrain = 0;
             }
-            else
+            else //If not
             {
-                whichTerrain = RandomTerrain(0, terrainsDatas.Count);
+                whichTerrain = RandomTerrain(0, terrainsDatas.Count); //Random terrain
             }
-            int terrainMaxRange;
-            if (whichTerrain == 1)
+            int terrainMaxRange; //Max terrain per random
+            if (whichTerrain == 1) //If terrain = Road can only spawn 2
             {
                 terrainsDatas[whichTerrain].maxRange = 2;
                 terrainMaxRange = terrainsDatas[whichTerrain].maxRange;
             }
-            else
+            else //If not random max range
             {
                 terrainMaxRange = Random.Range(2, terrainsDatas[whichTerrain].maxRange);
             }
-            for (int i = 0; i < terrainMaxRange; i++)
+            for (int i = 0; i < terrainMaxRange; i++) //Spawn Terrain loop
             {
                 Vector3 currentTerrainPosition = currentPosition;
-                if (whichTerrain == 1)
+                if (whichTerrain == 1) //If terrain = Road
                 {
                     if (roadnum == 0)
                     {
@@ -66,15 +66,15 @@ public class TerrainGenerator : MonoBehaviour
                         roadnum = 0;
                     }
                 }
-                if (whichTerrain == 2)
+                if (whichTerrain == 2) //If terrain = water
                 {
                     plankside = Random.Range(0,2);
                     Spawnplank(plankside);
                 }
-                GameObject terrain = Instantiate(terrainsDatas[whichTerrain].terrain, currentPosition, Quaternion.identity);
-                terrain.transform.SetParent(terrainSpawned);
-                currentTerrains.Add(terrain);
-                if (!isStart)
+                GameObject terrain = Instantiate(terrainsDatas[whichTerrain].terrain, currentPosition, Quaternion.identity); //SpawnTerrain
+                terrain.transform.SetParent(terrainSpawned); //Group it
+                currentTerrains.Add(terrain); //Add data
+                if (!isStart) //If it's not start remove old data
                 {
                     if (currentTerrains.Count > maxTerrainCount)
                     {

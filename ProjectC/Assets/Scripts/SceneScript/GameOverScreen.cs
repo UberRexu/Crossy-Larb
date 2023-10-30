@@ -14,14 +14,4 @@ public class GameOverScreen : MonoBehaviour
         gameObject.SetActive(true);
         pointText.text = score.ToString() + " POINTS";
     }
-
-    public void Restart()
-    {
-        SceneManager.LoadScene("EndlessScene");
-    }
-
-    public void Mainmenu()
-    {
-
-    }
 }

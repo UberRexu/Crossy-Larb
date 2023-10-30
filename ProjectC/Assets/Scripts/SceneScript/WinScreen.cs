@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class WinScreen : MonoBehaviour
 {
-    public void Setup()
+    public TextMeshProUGUI pointText;
+    public void Setup(float score)
     {
         gameObject.SetActive(true);
-        Time.timeScale = 0;
+        pointText.text = score.ToString() + " POINTS";
     }
 }

@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     private bool isPause = false;
     public bool isDead = false;
 
+    private int coinCount = 0;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -72,16 +74,7 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (!isPause)
-            {
-                GameManager.Instance.UpdateGameState(GameState.Pause);
-                isPause = true;
-            }
-            else
-            {
-                GameManager.Instance.UpdateGameState(GameState.Unpause);
-                isPause = false;
-            }
+            HandlePause();
         }
         gameManager.UpdateScore(UpdateScore());
     }
@@ -132,8 +125,50 @@ public class Player : MonoBehaviour
         return score;
     }
 
+    public void HandlePause()
+    {
+        if (!isPause)
+        {
+            PauseGame();
+            isPause = true;
+        }
+        else
+        {
+            UnPauseGame();
+            isPause = false;
+        }
+    }
+    public void PauseGame()
+    {
+        GameManager.Instance.UpdateGameState(GameState.Pause);
+    }
+    public void UnPauseGame()
+    {
+        GameManager.Instance.UpdateGameState(GameState.Unpause);
+    }
     public void Dead()
     {
         animator.SetTrigger("isDead");
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Collision with2" + gameObject.name);
+        if (other.CompareTag("Coin"))
+        {
+            Debug.Log("Collision with" + other.gameObject.name);
+            CollectCoin(other.gameObject);
+        }
+    }
+
+    private void CollectCoin(GameObject coin)
+    {
+        Debug.Log("Collected Coin");
+        coinCount++;
+        Destroy(coin);
+    }
+
+    public int GetCoinCount()
+    {
+        return coinCount;
     }
 }

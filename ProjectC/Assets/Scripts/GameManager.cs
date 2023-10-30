@@ -38,6 +38,9 @@ public class GameManager : MonoBehaviour
     //Player
     public Player player;
 
+    //Coin Manager
+    public CoinManager coinManager;
+
     private void Awake()
     {
         Instance = this;
@@ -45,6 +48,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         UpdateGameState(GameState.Prestart);
+        LoadCoinAmount();
     }
     public void UpdateGameState(GameState newState)
     {
@@ -97,6 +101,8 @@ public class GameManager : MonoBehaviour
         player.Dead();
         scoreText_GO.SetActive(false);
         FollowPlayer.PlayerDead();
+        int playerCoinCount = coinManager.GetPlayerCoinCount();
+        SaveCoinAmount(playerCoinCount);
     }
 
     private void HandlePlay()
@@ -112,7 +118,8 @@ public class GameManager : MonoBehaviour
     }
     private void HandleWin()
     {
-        WinScreen.Setup();
+        WinScreen.Setup(playerScore);
+        player.canMove = false;
     }
     public void UpdateScore(float points)
     {
@@ -124,6 +131,20 @@ public class GameManager : MonoBehaviour
         if (scoreText != null)
         {
             scoreText.text = "Score: " + playerScore.ToString();
+        }
+    }
+    private void SaveCoinAmount(int coinAmount)
+    {
+        PlayerPrefs.SetInt("CoinAmount", coinAmount);
+        PlayerPrefs.Save();
+    }
+    private void LoadCoinAmount()
+    {
+        if (PlayerPrefs.HasKey("CoinAmount"))
+        {
+            int coinAmount = PlayerPrefs.GetInt("CoinAmount");
+            // Set the loaded coin amount in the CoinManager
+            coinManager.UpdatePlayerCoinCount(coinAmount);
         }
     }
 }

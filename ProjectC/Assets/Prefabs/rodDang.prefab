@@ -183,6 +183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 901280541135477837}
   - component: {fileID: 795805202798053316}
+  - component: {fileID: 462331790477132443}
   m_Layer: 0
   m_Name: rodDang
   m_TagString: Untagged
@@ -225,6 +226,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+--- !u!65 &462331790477132443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561310908470150903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.738416, y: 1.8897707, z: 4.408157}
+  m_Center: {x: -0.0109785795, y: 0.44488513, z: -0.6456101}
 --- !u!1 &3582984218410619823
 GameObject:
   m_ObjectHideFlags: 0
