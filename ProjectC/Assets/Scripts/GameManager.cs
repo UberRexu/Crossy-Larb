@@ -40,6 +40,11 @@ public class GameManager : MonoBehaviour
 
     //Coin Manager
     public CoinManager coinManager;
+    public TextMeshProUGUI coinText;
+    public int playerCoin = 0;
+
+    //Menu Manager
+    public isMenu isMenu;
 
     private void Awake()
     {
@@ -47,7 +52,14 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        UpdateGameState(GameState.Prestart);
+        if (isMenu != null)
+        {
+            UpdateGameState(GameState.Menu);
+        }
+        else
+        {
+            UpdateGameState(GameState.Prestart);
+        }
         LoadCoinAmount();
     }
     public void UpdateGameState(GameState newState)
@@ -74,11 +86,19 @@ public class GameManager : MonoBehaviour
             case GameState.Win:
                 HandleWin();
                 break;
+            case GameState.Menu:
+                HandleMenu();
+                break;
             default:
                 break;
         }
 
         OnGameStateChange?.Invoke(newState);
+    }
+
+    private void HandleMenu()
+    {
+
     }
 
     private void HandlePause()
@@ -101,8 +121,7 @@ public class GameManager : MonoBehaviour
         player.Dead();
         scoreText_GO.SetActive(false);
         FollowPlayer.PlayerDead();
-        int playerCoinCount = coinManager.GetPlayerCoinCount();
-        SaveCoinAmount(playerCoinCount);
+        SaveCoinAmount(playerCoin);
     }
 
     private void HandlePlay()
@@ -113,8 +132,11 @@ public class GameManager : MonoBehaviour
     }
     private void HandlePreStart()
     {
-        Prestart.Setup();
-        player.canMove = false;
+        if (Prestart != null)
+        {
+            Prestart.Setup();
+            player.canMove = false;
+        }
     }
     private void HandleWin()
     {
@@ -131,6 +153,14 @@ public class GameManager : MonoBehaviour
         if (scoreText != null)
         {
             scoreText.text = "Score: " + playerScore.ToString();
+        }
+    }
+    public void UpdateCoinUI()
+    {
+        playerCoin = coinManager.GetPlayerCoin();
+        if (coinText != null)
+        {
+            coinText.text = playerCoin.ToString();
         }
     }
     private void SaveCoinAmount(int coinAmount)
@@ -156,5 +186,6 @@ public enum GameState
     Pause,
     Unpause,
     Prestart,
-    Win
+    Win,
+    Menu
 }

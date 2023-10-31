@@ -12,9 +12,8 @@ public class Plank2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = Random.Range(3,10);
         startPos = transform.position;
-        endPos = startPos - new Vector3(0, 0, 22);
+        endPos = startPos - new Vector3(0, 0, 8);
     }
 
     // Update is called once per frame
@@ -23,7 +22,7 @@ public class Plank2 : MonoBehaviour
         currentPos = transform.position;
         if (movingForward)
         {
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+            transform.Translate(Vector3.right * speed * Time.deltaTime);
 
             if (currentPos.z <= endPos.z)
             {
@@ -33,7 +32,7 @@ public class Plank2 : MonoBehaviour
         
        else
         {
-            transform.Translate(Vector3.back * speed * Time.deltaTime);
+            transform.Translate(Vector3.left * speed * Time.deltaTime);
             if (currentPos.z >= startPos.z)
             {
                 movingForward = true;

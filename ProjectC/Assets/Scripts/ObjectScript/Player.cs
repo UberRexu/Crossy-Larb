@@ -12,13 +12,14 @@ public class Player : MonoBehaviour
     public float score;
 
     [SerializeField] GameManager gameManager;
+    [SerializeField] CoinManager coinManager;
 
     [SerializeField] private FollowPlayer Camera;
 
     private bool isPause = false;
     public bool isDead = false;
 
-    private int coinCount = 0;
+    public int coinCount = 0;
 
     private void Start()
     {
@@ -122,7 +123,8 @@ public class Player : MonoBehaviour
     public float UpdateScore()
     {
         score = transform.position.x;
-        return score;
+        score = Mathf.CeilToInt(score);
+        return (int)score;
     }
 
     public void HandlePause()
@@ -152,11 +154,10 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collision with2" + gameObject.name);
         if (other.CompareTag("Coin"))
         {
-            Debug.Log("Collision with" + other.gameObject.name);
             CollectCoin(other.gameObject);
+            coinManager.UpdatePlayerCoinCount(1);
         }
     }
 

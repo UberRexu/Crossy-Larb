@@ -15,6 +15,7 @@ public class PlatformAttach : MonoBehaviour
     {
         if (other.gameObject == Player)
         {
+            Debug.Log("Attached");
             Player.transform.parent = transform;
         }
     }
