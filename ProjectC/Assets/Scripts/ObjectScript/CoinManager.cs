@@ -18,6 +18,7 @@ public class CoinManager : MonoBehaviour
     public void SetPlayerCoin(int newCoinCount)
     {
         playerCoinCount = newCoinCount;
+        gameManager.UpdateCoinUI();
     }
 
 }

@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 public class GameOverScreen : MonoBehaviour
 {
     public TextMeshProUGUI pointText;
-    
     public void Setup(float score)
     {
         gameObject.SetActive(true);

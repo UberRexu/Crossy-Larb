@@ -10,6 +10,8 @@ public class Traffic : MonoBehaviour
     [SerializeField] private GameObject GrabPink;
     [SerializeField] private GameObject Spawnpoint;
     private bool startRedlight = false;
+    public AudioSource warning;
+    public AudioSource bikePass;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,11 @@ public class Traffic : MonoBehaviour
             GreenLight.turnLightOnOff();
             StartCoroutine(SpawnGrab(15));
             startRedlight = false;
+            if (warning != null && bikePass != null)
+            {
+                warning.Play();
+                bikePass.Play();
+            }
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -57,5 +64,9 @@ public class Traffic : MonoBehaviour
         }
         RedLight.turnLightOnOff();
         GreenLight.turnLightOnOff();
+        if (warning != null)
+        {
+            warning.Stop();
+        }
     }
 }

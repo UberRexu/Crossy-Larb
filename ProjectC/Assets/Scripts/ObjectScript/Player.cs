@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Player : MonoBehaviour
 {
@@ -20,6 +21,9 @@ public class Player : MonoBehaviour
     public bool isDead = false;
 
     public int coinCount = 0;
+
+    public AudioSource walk;
+    public AudioSource collectCoin;
 
     private void Start()
     {
@@ -101,6 +105,10 @@ public class Player : MonoBehaviour
     {
         animator.SetTrigger("Move");
         isMoving = true;
+        if (walk != null)
+        {
+            walk.Play();
+        }
         StartCoroutine(MoveWithAnimation(difference));
 
         if (terrainGenerator != null)
@@ -158,6 +166,10 @@ public class Player : MonoBehaviour
         {
             CollectCoin(other.gameObject);
             coinManager.UpdatePlayerCoinCount(1);
+            if (collectCoin != null)
+            {
+                collectCoin.Play();
+            }
         }
     }
 

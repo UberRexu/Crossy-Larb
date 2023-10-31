@@ -24,7 +24,7 @@ public class FollowPlayer : MonoBehaviour
             Debug.Log("Out of bound");
         }
     }
-    void LateUpdate()
+    void FixedUpdate()
     {
         if (isMovingForward)
         {

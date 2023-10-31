@@ -1,0 +1,722 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1698764512294057, "dur": 209872, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698764512294255, "dur": 1629, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698764512295885, "dur": 206525, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698764512502413, "dur": 1516, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698764512504138, "dur": 7, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698764512315873, "dur":881, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512316761, "dur":106, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698764512316904, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698764512316923, "dur":362, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698764512317310, "dur":472, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512317782, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512495775, "dur":179, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512495954, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512495973, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512495976, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512495990, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496003, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496013, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496015, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496019, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496020, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496025, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496031, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496038, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496041, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496048, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496050, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496055, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496057, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496064, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496066, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496071, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496073, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496079, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496081, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496088, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496102, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512496132, "dur":814, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698764512317350, "dur":436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512317787, "dur":3627, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512321422, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698764512321424, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512321480, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698764512321482, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512321523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512321971, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698764512323283, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698764512323342, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512323370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512323695, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698764512324219, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1698764512324276, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512324298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512324304, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1698764512324749, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1698764512324788, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512324803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512324807, "dur":429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1698764512325295, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698764512325344, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512325375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512325474, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698764512326184, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698764512326226, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512326241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512326244, "dur":27745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698764512354122, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1698764512354154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512354172, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1698764512355584, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":1, "ts":1698764512355601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512355606, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":1, "ts":1698764512356839, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512356854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512356858, "dur":4635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512361504, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512361519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512361541, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512362465, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512362480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512362484, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512363777, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512363791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512363795, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512365565, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512365580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512365584, "dur":5079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512370674, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1698764512371369, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512371394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512371399, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1698764512371919, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698764512371936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512371940, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698764512373165, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level8" }}
+,{ "pid":12345, "tid":1, "ts":1698764512373184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512373188, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level8" }}
+,{ "pid":12345, "tid":1, "ts":1698764512375137, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1698764512375151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512375156, "dur":609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1698764512375774, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1698764512375787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512375791, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1698764512376332, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512376346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512376350, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512377066, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512377079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512377083, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698764512377796, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1698764512377811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512377815, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1698764512378981, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698764512379061, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512379083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698764512379087, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1698764512380026, "dur":115747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512317367, "dur":422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512317789, "dur":3630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512321423, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698764512321591, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512321656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512331677, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698764512332303, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698764512332321, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512332532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512332537, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698764512333353, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698764512333374, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512333457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512333463, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698764512334527, "dur":112729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698764512447257, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512447315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698764512447326, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698764512448142, "dur":47634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512317394, "dur":399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512317793, "dur":3625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512321423, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1698764512321537, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512321598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512330864, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1698764512331470, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512331494, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512331527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512331662, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512332308, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512332320, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512332530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512332535, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512333354, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512333370, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512333391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512333396, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512334001, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512334012, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512334179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512334184, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512335386, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512335401, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512335424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512335428, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512336343, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512336362, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512336382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512336386, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512337058, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512337074, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512337098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512337103, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512337762, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512337774, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512337793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512337816, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512338942, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512338955, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512339077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512339082, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512339916, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512339928, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512339951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512339956, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512340848, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512340867, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512340956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512340961, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512342824, "dur":84592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512427417, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512427456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698764512427465, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698764512428246, "dur":67534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512317420, "dur":377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512317797, "dur":3623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512321422, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698764512321548, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512321624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512331048, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698764512331642, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512331658, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512331676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512331697, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512332610, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512332628, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512332653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512332659, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512333356, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512333370, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512333393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512333456, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512334108, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512334122, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512334141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512334145, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512334937, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512334952, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512334970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512334974, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512335513, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512335528, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512335603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512335626, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512336373, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512336386, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512336404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512336409, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512337116, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512337129, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512337150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512337155, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512337860, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512337872, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512337890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512337895, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512338708, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512338724, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512338829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512338835, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512339537, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512339554, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512339577, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512339581, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512340247, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512340260, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512340282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512340286, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512341154, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512341170, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512341256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512341260, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512341999, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512342014, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512342035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512342039, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512342942, "dur":79098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512422041, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512422083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698764512422090, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698764512422856, "dur":72928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698764512317440, "dur":360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698764512317800, "dur":3617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698764512321423, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698764512321593, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698764512321663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698764512400103, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698764512400888, "dur":94883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512317456, "dur":347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512317803, "dur":3632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512321436, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1698764512321525, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512321563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512326529, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1698764512327084, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1698764512327140, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512327159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512327162, "dur":7511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1698764512334739, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512334756, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512334779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512334783, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512335455, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512335471, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512335492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512335496, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512336314, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512336328, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512336350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512336355, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512337244, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512337257, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512337329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512337333, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512338584, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512338597, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512338618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512338623, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512339441, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512339461, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512339484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512339489, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512340043, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512340058, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512340209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512340214, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512341085, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512341102, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512341172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512341177, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512342221, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512342233, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512342304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512342308, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512343144, "dur":151902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512495047, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512495097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698764512495105, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698764512495750, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1698764512495751, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512317474, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512317806, "dur":3628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512321434, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698764512321580, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512321641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512331415, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698764512332054, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512332073, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512332093, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512332098, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512332937, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512332982, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512333024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512333029, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512333552, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512333564, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512333628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512333633, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512334415, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512334440, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512334462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512334467, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512336943, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512336954, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512336979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512337097, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512338028, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512338039, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512338264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512338268, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512338959, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512338973, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512339074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512339079, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512340129, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512340147, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512340183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512340213, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512341276, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512341292, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512341312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512341317, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512342036, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512342049, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512342070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512342074, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512343002, "dur":66512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512409515, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512409567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698764512409577, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698764512410257, "dur":85532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512317492, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512317809, "dur":3611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512321422, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698764512321513, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512321547, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512322587, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698764512323341, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1698764512323400, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512323419, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512323489, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1698764512324037, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698764512324091, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512324111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512324124, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698764512324637, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1698764512324690, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512324710, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512324715, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1698764512325279, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1698764512325330, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512325347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512325352, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1698764512326060, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698764512326111, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512326131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512326145, "dur":17497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698764512343712, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698764512343729, "dur":1042, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512347886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512347895, "dur":10909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698764512358819, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":8, "ts":1698764512358836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512358840, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":8, "ts":1698764512360798, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698764512360821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512360825, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698764512361768, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698764512361782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512361787, "dur":4513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698764512366311, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698764512366345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512366350, "dur":2471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698764512368837, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698764512368854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512368858, "dur":5181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698764512374058, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level7" }}
+,{ "pid":12345, "tid":8, "ts":1698764512374074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512374078, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level7" }}
+,{ "pid":12345, "tid":8, "ts":1698764512374912, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1698764512374925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512374929, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level6" }}
+,{ "pid":12345, "tid":8, "ts":1698764512375614, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level4.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698764512375631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512375635, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level4.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698764512376317, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698764512376332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512376336, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698764512377028, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1698764512377042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512377046, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1698764512377691, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698764512377704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698764512377708, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698764512379926, "dur":115849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698764512317512, "dur":300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698764512317812, "dur":3603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698764512321421, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1698764512321628, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698764512321667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698764512400442, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1698764512401102, "dur":94691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512317529, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512317815, "dur":3607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512321423, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1698764512321540, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512321594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512326699, "dur":471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1698764512327215, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb.exe" }}
+,{ "pid":12345, "tid":10, "ts":1698764512327601, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512327619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512327622, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb.exe" }}
+,{ "pid":12345, "tid":10, "ts":1698764512328346, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1698764512328402, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512328426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512328536, "dur":14867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1698764512343481, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512343500, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512343523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512343528, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512344104, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512344119, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512344139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512344144, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512344740, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512344754, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512344794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512344799, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512345506, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512345519, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512345540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512345545, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512346871, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512346884, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512346906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512346910, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512347445, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512347460, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512347482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512347488, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512348062, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512348074, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512348094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512348098, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512350380, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512350401, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512350425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512350454, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512351163, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512351177, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512351197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512351201, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512352587, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512352601, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512352622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512352626, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512353212, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512353225, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512353245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512353249, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512353946, "dur":97308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512451255, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512451282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698764512451288, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698764512451839, "dur":43933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512317548, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512317818, "dur":3598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512321421, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1698764512321524, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512321607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512331019, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1698764512331546, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512331609, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512331629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512331681, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512332587, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512332605, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512332626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512332631, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512333374, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512333385, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512333461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512333465, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512334100, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512334112, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512334182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512334187, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512334920, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512334931, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512334966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512334971, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512335477, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512335494, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512335514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512335519, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512336369, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512336384, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512336406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512336411, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512337142, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512337158, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512337177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512337182, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512337844, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512337856, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512337876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512337881, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512338769, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512338783, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512338826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512338831, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512339539, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512339553, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512339581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512339586, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512340255, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512340268, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512340291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512340296, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512341151, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512341172, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512341257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512341262, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512341837, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512341853, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512341961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512341967, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512342946, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512342961, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512342984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512342988, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512343582, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512343596, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512343615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512343619, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512345602, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512345617, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512345641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512345646, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512346353, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512346367, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512346388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512346393, "dur":625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512347028, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512347039, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512347103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512347125, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512347822, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512347838, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512347858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512347863, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512349244, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512349256, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512349277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512349281, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512351329, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512351342, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512351550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512351555, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512352277, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512352292, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512352313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512352318, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512352936, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512352950, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512352968, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512352977, "dur":5281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698764512358270, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512358286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512358290, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512359000, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512359014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512359019, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512359511, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512359528, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512359533, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512360034, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512360055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512360059, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512361571, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512361586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512361590, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512362104, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512362119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512362123, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512362850, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512362866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512362870, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512363640, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512363656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512363660, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512364151, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512364166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512364170, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512364929, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512364947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512364951, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512368220, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512368239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512368244, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1698764512369928, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512369945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512369950, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512370575, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1698764512370670, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512370694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512370699, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1698764512371140, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512371154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512371176, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512372673, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level8.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512372690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512372694, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level8.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512373255, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level7.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512373269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512373274, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level7.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512374251, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level6.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512374264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512374268, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level6.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512375123, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level5.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512375137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512375141, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level5.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698764512376328, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1698764512376342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512376346, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1698764512377098, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1698764512377112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512377116, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1698764512377908, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512377923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512377928, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698764512378523, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1698764512378542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698764512378546, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1698764512379018, "dur":116754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512317564, "dur":257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512317821, "dur":3600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512321422, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698764512321573, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512321631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512331217, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698764512331864, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512331881, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512331964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512331992, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512332713, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512332728, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512332784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512332789, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512333405, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512333418, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512333463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512333468, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512334236, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512334353, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512334480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512334486, "dur":4492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512338988, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512339068, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512339090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512339095, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512339911, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512339926, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512339947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512339951, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512341015, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512341028, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512341051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512341057, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512341687, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512341699, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512341726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512341730, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512342387, "dur":43159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512385546, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512385584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698764512385591, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Work/Year 3/Gamedev 3/ProjectC/Build/CrossyLarb_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698764512386267, "dur":109530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698764512497837, "dur":1541, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1698764512504188, "dur": 750, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698764512504127, "dur": 830, "ph": "X", "name": "Write chrome-trace events", "args": {} },

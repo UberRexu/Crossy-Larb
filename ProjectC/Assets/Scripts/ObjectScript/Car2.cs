@@ -8,6 +8,7 @@ public class Car2 : MonoBehaviour
     private Vector3 startPos;
     private Vector3 currentPos;
     private Vector3 endPos;
+    public AudioSource hit;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,8 +35,11 @@ public class Car2 : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            if (hit != null)
+            {
+                hit.Play();
+            }
             GameManager.Instance.UpdateGameState(GameState.Died);
-            Debug.Log("Hit!");
         }
     }
 }
