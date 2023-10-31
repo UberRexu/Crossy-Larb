@@ -12,8 +12,16 @@ public class TerrainGenerator : MonoBehaviour
     private List<GameObject> currentTerrains = new List<GameObject>();
     [SerializeField] private GameObject car;
     [SerializeField] private GameObject car2;
+    [SerializeField] private GameObject RodDaeng;
+    [SerializeField] private GameObject RodDaeng2;
+    [SerializeField] private GameObject PickUp;
+    [SerializeField] private GameObject PickUp2;
     [SerializeField] private GameObject plank;
     [SerializeField] private GameObject plank2;
+    private bool spawntree = false;
+    [SerializeField] private GameObject tree;
+    [SerializeField] private GameObject bush;
+    [SerializeField] private GameObject coin;
     private int roadnum = 0; //For car left2right or right2left check
     private int plankside; //For plank left2right or right2left check || 0 = right || 1 = left
     private int previousRandomNumber = -1;
@@ -43,6 +51,15 @@ public class TerrainGenerator : MonoBehaviour
             int terrainMaxRange; //Max terrain per random
             if (whichTerrain == 1) //If terrain = Road can only spawn 2
             {
+                terrainsDatas[whichTerrain].maxRange = 4;
+                terrainMaxRange = terrainsDatas[whichTerrain].maxRange;
+            }
+            if (whichTerrain == 4)
+            {
+                whichTerrain = Random.Range(2, terrainsDatas[whichTerrain].maxRange);
+            }
+            if (whichTerrain == 3)
+            {
                 terrainsDatas[whichTerrain].maxRange = 2;
                 terrainMaxRange = terrainsDatas[whichTerrain].maxRange;
             }
@@ -52,19 +69,25 @@ public class TerrainGenerator : MonoBehaviour
             }
             for (int i = 0; i < terrainMaxRange; i++) //Spawn Terrain loop
             {
+                Debug.Log("Spawned" + whichTerrain + terrainMaxRange);
                 Vector3 currentTerrainPosition = currentPosition;
-                if (whichTerrain == 1) //If terrain = Road
+                if (whichTerrain == 0)
                 {
-                    if (roadnum == 0)
+                    int amount = Random.Range(0,5);
+                    spawnTree(amount);
+                    if (isFirst && isStart)
                     {
-                        Spawncar();
-                        roadnum++;
+                        spawntree = false;
                     }
                     else
                     {
-                        Spawncar2();
-                        roadnum = 0;
+                        spawntree = true;
                     }
+                }
+                if (whichTerrain == 1) //If terrain = Road
+                {
+                    roadnum = Random.Range(0,7);
+                    Spawncar(roadnum);
                 }
                 if (whichTerrain == 2) //If terrain = water
                 {
@@ -74,6 +97,10 @@ public class TerrainGenerator : MonoBehaviour
                 GameObject terrain = Instantiate(terrainsDatas[whichTerrain].terrain, currentPosition, Quaternion.identity); //SpawnTerrain
                 terrain.transform.SetParent(terrainSpawned); //Group it
                 currentTerrains.Add(terrain); //Add data
+                if (whichTerrain == 3) //If terrain = Traffic
+                {
+                    whichTerrain = 4;
+                }
                 if (!isStart) //If it's not start remove old data
                 {
                     if (currentTerrains.Count > maxTerrainCount)
@@ -86,23 +113,41 @@ public class TerrainGenerator : MonoBehaviour
             }
         }
     }
-    void Spawncar()
+    void Spawncar(int whichCar)
     {
-        Instantiate(car, new Vector3(currentPosition.x, currentPosition.y + 0.3f, currentPosition.z - 12), Quaternion.identity);
-    }
-    void Spawncar2()
-    {
-        Instantiate(car2, new Vector3(currentPosition.x, currentPosition.y + 0.3f, currentPosition.z + 12), Quaternion.Euler(0, 180, 0));
+        switch(whichCar)
+        {
+            case 0:
+                Instantiate(car, new Vector3(currentPosition.x, currentPosition.y + 0.3f, currentPosition.z - 12), Quaternion.identity);
+                break;
+            case 1:
+                Instantiate(car2, new Vector3(currentPosition.x, currentPosition.y + 0.3f, currentPosition.z + 12), Quaternion.Euler(0, 180, 0));
+                break;
+            case 2:
+                Instantiate(RodDaeng, new Vector3(currentPosition.x, currentPosition.y + 0.7f, currentPosition.z - 12), Quaternion.identity);
+                break;
+            case 3:
+                Instantiate(RodDaeng2, new Vector3(currentPosition.x, currentPosition.y + 0.7f, currentPosition.z + 12), Quaternion.Euler(0, 180, 0));
+                break;
+            case 4:
+                Instantiate(PickUp, new Vector3(currentPosition.x, currentPosition.y + 0.65f, currentPosition.z - 12), Quaternion.identity);
+                break;
+            case 5:
+                Instantiate(PickUp2, new Vector3(currentPosition.x, currentPosition.y + 0.5f, currentPosition.z + 12), Quaternion.Euler(0, 180, 0));
+                break;
+            default:
+                break;
+        }
     }
     void Spawnplank(int plankside)
     {
         if (plankside == 0)
         {
-            Instantiate(plank, new Vector3(currentPosition.x, currentPosition.y + 0.3f, currentPosition.z - 12), Quaternion.identity);
+            Instantiate(plank, new Vector3(currentPosition.x, currentPosition.y + 0.3f, currentPosition.z + 4), Quaternion.Euler(270, 270, 180));
         }
         if (plankside == 1)
         {
-            Instantiate(plank2, new Vector3(currentPosition.x, currentPosition.y + 0.3f, currentPosition.z + 12), Quaternion.Euler(0, 180, 0));
+            Instantiate(plank2, new Vector3(currentPosition.x, currentPosition.y + 0.3f, currentPosition.z - 4), Quaternion.Euler(270, 0, 90));
         }
     }
     int RandomTerrain(int min, int max)
@@ -123,5 +168,49 @@ public class TerrainGenerator : MonoBehaviour
         previousRandomNumber = randomNumber;
 
         return randomNumber;
+    }
+
+    void spawnTree(int amount)
+    {
+        if (spawntree)
+        {
+            //Create Available position
+            List<int> availablePositions = new List<int>();
+            for (int i = -4; i <= 4; i++)
+            {
+                availablePositions.Add(i);
+            }
+
+            for (int i = 0 ; i <= amount; i++)
+            {
+                int whattype = Random.Range(0,3); //Random Object Type
+
+                if (availablePositions.Count > 0)
+                {
+                    int randomIndex = Random.Range(0, availablePositions.Count);
+                    int position = availablePositions[randomIndex];
+                    availablePositions.RemoveAt(randomIndex);
+                    if (whattype == 0)
+                    {
+                        Instantiate(tree, new Vector3(currentPosition.x, currentPosition.y + 0.5f, position), Quaternion.identity);
+                    }
+                    else if (whattype == 1)
+                    {
+                        Instantiate(bush, new Vector3(currentPosition.x, currentPosition.y + 0.5f, position), Quaternion.Euler(-90, 0, 0));
+                    }
+                    else if (whattype == 2)
+                    {
+                        Instantiate(coin, new Vector3(currentPosition.x, currentPosition.y + 1f, position), Quaternion.identity);
+                    }
+                }
+                else
+                {
+                    break;
+                }
+
+                
+            }
+        }
+        
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Plank2 : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] private float speed = 5;
     private Vector3 startPos;
     private Vector3 currentPos;
     private Vector3 endPos;

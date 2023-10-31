@@ -3,7 +3,12 @@ guid: ae4c00a0cca7cf947a788e305559e2a4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - terrainSpawned: {instanceID: 0}
+  - car: {fileID: 919132149155446097, guid: 1d18cc80f304eb54da7965594af96b7d, type: 3}
+  - car2: {fileID: 2289411911033080203, guid: f85651f155dfeef4fa22522ab01a555d, type: 3}
+  - plank: {fileID: 2315694566979178025, guid: 7933b90912fa4d444ae9a0f308337eb1, type: 3}
+  - plank2: {fileID: 2907535438272377570, guid: 8afa0afb09de3734a983b981847b40ea, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

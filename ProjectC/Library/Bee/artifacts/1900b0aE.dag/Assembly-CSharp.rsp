@@ -354,6 +354,8 @@
 "Assets/Scripts/ObjectScript/Grab.cs"
 "Assets/Scripts/ObjectScript/Plank.cs"
 "Assets/Scripts/ObjectScript/Plank2.cs"
+"Assets/Scripts/ObjectScript/Plank2ForEndless.cs"
+"Assets/Scripts/ObjectScript/PlankForEndLess.cs"
 "Assets/Scripts/ObjectScript/PlatformAttach.cs"
 "Assets/Scripts/ObjectScript/Player.cs"
 "Assets/Scripts/ObjectScript/RodDaeng.cs"
